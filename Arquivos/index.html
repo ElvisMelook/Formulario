@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Formulário de Clientes</h1>
+        <form class="form">
+            <div>
+                <input type="text" placeholder="digite seu nome" class="inputs required" oninput="validatename()">
+                <span class="span-required">O nome deve conter no minímo 3 letras.</span>
+            </div>
+            <div>
+                <input type="text" placeholder="digite seu segundo nome" class="inputs required" oninput="validatesobrenome()">
+                <span class="span-required">O sobre nome deve conter no mínimo 2 letras.</span>
+            </div>
+            <div>
+                <input type="text" placeholder="cidade em qual você mora" class="inputs required" oninput="validatecidade()">
+                <span class="span-required">Deve conter no minímo 3 letras</span>
+            </div>
+            <p>Experiência proficional</p>
+            <div class="checkbox">
+                <div>
+                    <input type="checkbox" name="cargos" id="front">
+                    <label for="front">Front-end</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="cargos" id="back">
+                    <label for="back">Back-end</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="cargos" id="full">
+                    <label for="full">Fullstack</label>
+                </div>
+            </div>
+            <button type="submit"> Enviar </button>
+        </form>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

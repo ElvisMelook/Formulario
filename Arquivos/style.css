@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.952);
+    color: aliceblue;
+}
+.content {
+    text-align: center;
+    background-color: rgba(140, 237, 184, 0.128);
+    border-radius: 12px 0px 100px 0px;
+    width: 40%;
+   
+    min-width: 40%;
+    
+
+}
+h1{
+    margin: 1rem;
+}
+.span-required{
+    display: none;
+    color: red;
+}
+.inputs{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    outline: none ;
+    background-color: black;
+    font: 15px;
+    color: aliceblue;
+    border:solid black;
+}
+.checkbox{
+    display: flex;
+    justify-content:space-around;
+    padding: 2rem;
+    
+
+}
+button[type='submit'] {
+    background-color: rgb(85, 14, 14);
+    color: rgba(236, 245, 245, 0.377);
+    padding: 1rem;
+    outline: none;
+    border:solid rgb(85, 14, 14);
+    font-size: 1rem;
+    width: 40%;
+    transition: .9s;
+    
+}
+button[type='submit']:hover{
+    background-color: rgb(235, 34, 34);
+    border: solid rgb(235, 34, 34);
+    color: aliceblue
+    
+}
